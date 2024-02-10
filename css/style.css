@@ -843,6 +843,8 @@ and (max-width : 480px) {
 }
 }
 
+/* TESTIMONIALS */
+
 .testimonial blockquote {
   margin: 10px 0; /* Adjusted margin */
   background: #efefef;
@@ -851,8 +853,8 @@ and (max-width : 480px) {
   border: none;
   border-radius: 8px;
   font-style: italic;
-color: #151515;
-min-width: 500px; /* Set minimum width  */
+  color: #151515;
+  min-width: 200px; /* Set minimum width to 200px */
 }
 
 .testimonial blockquote:before,
@@ -866,14 +868,14 @@ min-width: 500px; /* Set minimum width  */
 }
 
 .testimonial blockquote:before {
-  top: -20px; /* Adjusted position */
-  left: -10px; /* Adjusted position */
+  top: -0.25em; /* Adjusted position */
+  left: -7%; /* Adjusted position */
 }
 
 .testimonial blockquote:after {
   content: "\201D";
-  right: -10px; /* Adjusted position */
-  bottom: -20px; /* Adjusted position */
+  right: -5%; /* Adjusted position */
+  bottom: -0.25em; /* Adjusted position */
 }
 
 .testimonial div {
@@ -886,4 +888,5 @@ min-width: 500px; /* Set minimum width  */
   text-align: left;
   color: #797979;
 }
+
 
