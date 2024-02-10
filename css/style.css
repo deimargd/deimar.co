@@ -844,7 +844,7 @@ and (max-width : 480px) {
 }
 
 .testimonial blockquote {
-  margin: 10px 10px 0;
+  margin: 10px 0; /* Adjusted margin */
   background: #efefef;
   padding: 20px 60px;
   position: relative;
@@ -864,23 +864,19 @@ and (max-width : 480px) {
 }
 
 .testimonial blockquote:before {
-  top: 0;
-  left: 10px;
+  top: -20px; /* Adjusted position */
+  left: -10px; /* Adjusted position */
 }
 
 .testimonial blockquote:after {
   content: "\201D";
-  right: 10px;
-  bottom: -0.5em;
+  right: -10px; /* Adjusted position */
+  bottom: -20px; /* Adjusted position */
 }
 
 .testimonial div {
-  width: 0;
-  height: 0;
-  border-left: 0 solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #efefef;
-  margin: 0 0 0 60px;
+  display: inline-block; /* Adjusted display */
+  vertical-align: top; /* Adjusted vertical alignment */
 }
 
 .testimonial p {
@@ -888,3 +884,4 @@ and (max-width : 480px) {
   text-align: left;
   color: #797979;
 }
+
