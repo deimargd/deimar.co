@@ -845,6 +845,10 @@ and (max-width : 480px) {
 
 /* TESTIMONIALS */
 
+.testimonial {
+  margin: 0 20px; /* Add margin to create space between testimonial boxes */
+}
+
 .testimonial blockquote {
   margin: 10px 0; /* Adjusted margin */
   background: #efefef;
@@ -854,7 +858,7 @@ and (max-width : 480px) {
   border-radius: 8px;
   font-style: italic;
   color: #151515;
-  min-width: 200px; /* Set minimum width to 200px */
+  min-width: 600px; /* Set minimum width to 200px */
 }
 
 .testimonial blockquote:before,
@@ -868,14 +872,19 @@ and (max-width : 480px) {
 }
 
 .testimonial blockquote:before {
-  top: -0.25em; /* Adjusted position */
-  left: -7%; /* Adjusted position */
+  top: -0.5em; /* Adjusted position */
+  left: -30px; /* Adjusted position */
 }
 
 .testimonial blockquote:after {
   content: "\201D";
-  right: -5%; /* Adjusted position */
-  bottom: -0.25em; /* Adjusted position */
+  position: absolute;
+  right: -30px; /* Adjusted position */
+  bottom: -0.5em; /* Adjusted position */
+  color: #151515;
+  font-size: 80px;
+  line-height: 1;
+  font-style: normal;
 }
 
 .testimonial div {
@@ -888,5 +897,3 @@ and (max-width : 480px) {
   text-align: left;
   color: #797979;
 }
-
-
