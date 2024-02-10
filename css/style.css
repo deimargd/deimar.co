@@ -846,13 +846,13 @@ and (max-width : 480px) {
 /* TESTIMONIALS */
 
 .testimonial {
-  margin: 0 20px; /* Add margin to create space between testimonial boxes */
+  margin: 20px; /* Add margin to create space between testimonial boxes */
 }
 
 .testimonial blockquote {
-  margin: 10px 0; /* Adjusted margin */
+  margin: 10px 20px; /* Adjusted margin */
   background: #efefef;
-  padding: 20px 60px;
+  padding: 20px 40px; /* Adjusted padding */
   position: relative;
   border: none;
   border-radius: 8px;
@@ -897,3 +897,4 @@ and (max-width : 480px) {
   text-align: left;
   color: #797979;
 }
+
