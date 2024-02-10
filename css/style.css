@@ -851,6 +851,8 @@ and (max-width : 480px) {
   border: none;
   border-radius: 8px;
   font-style: italic;
+color: #151515;
+min-width: 500px; /* Set minimum width  */
 }
 
 .testimonial blockquote:before,
@@ -859,7 +861,7 @@ and (max-width : 480px) {
   position: absolute;
   font-size: 80px;
   line-height: 1;
-  color: #757f9a;
+  color: #151515;
   font-style: normal;
 }
 
