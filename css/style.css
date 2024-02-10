@@ -26,10 +26,9 @@ hover color:	#fed136 (yellow)
 Import Google Fonts
 --------------------*/
 
-/* main font for menu. */
-@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
-/* font for headings, text, tags */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800);
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 
 /*--------------------
 1. General
@@ -37,7 +36,7 @@ Import Google Fonts
 	
 body {
 	margin: 0px;
-	font-family: "Open Sans", Sans-serif;
+	font-family: "Source Sans Pro", Sans-serif;
 }
 
 h1,
@@ -48,12 +47,12 @@ h5,
 h6 {
 	font-weight: 300;
 	letter-spacing: 0.4px;
-	font-family: "Open Sans", Sans-serif;
+	font-family: "Playfair Display", Sans-serif;
 	color: #232323;
 }
 
 p {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 23px;
@@ -95,7 +94,7 @@ ul {
 ul li {
     list-style: none;
     padding-bottom: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 23px;
@@ -158,8 +157,8 @@ section ul li:before {
 	background-color: #fed136
 }
 .navbar-default .nav li a {
-	font-family: "Roboto",sans-serif;
-	text-transform: uppercase;
+	font-family: "Source Sans Pro",sans-serif;
+	text-transform: capitalize;
 	font-weight: 600;
 	letter-spacing: 1px;
 	color:#000;
@@ -243,7 +242,7 @@ header .intro-text .intro-lead-in {
 	background-color: rgba(255, 255, 255, 0.65);
 	margin-bottom: 25px;
 	padding: 4px 20px;
-	font-family: "Open Sans",sans-serif;
+	font-family: "Playfair Display",sans-serif;
 	font-size: 19px;
 	color: #3E3E3E;
 	font-weight: 300;
@@ -259,7 +258,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: 900;
 	font-size: 40px;
 	line-height: 48px;
@@ -284,7 +283,7 @@ header .intro-text .intro-heading {
 
 .section-title h2 {
 	font-size: 34px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	color: #5D5D5D;
 	font-weight: 800;
 	letter-spacing: -0.6px;
@@ -324,7 +323,7 @@ header .intro-text .intro-heading {
 .mz-module-about h3 {
 	font-weight: 500;
 	font-size: 19px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	color: #000000;
 	letter-spacing: 2px;
 	margin-bottom: 20px;
@@ -461,7 +460,7 @@ figure.effect-bubba h2 {
 	color: #fff;
 	font-size: 15px;
 	font-weight: 700;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	padding-top: 30%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
@@ -526,7 +525,7 @@ figure.effect-bubba:hover p {
 	font-size: 16px;
 	font-weight: 700;
 	margin: 10px 0 0 0;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
 /*--------------------
@@ -616,7 +615,7 @@ figure.effect-bubba:hover p {
 .team-item h3 {
 	font-size: 16px;
 	font-weight: 800;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	color: #2D2D2D;
 }
 
@@ -624,7 +623,7 @@ figure.effect-bubba:hover p {
 	color: #989898;
 	font-size: 12px;
 	margin: 15px 0 10px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: 500;
 	letter-spacing: 2px;
 }
@@ -686,7 +685,7 @@ footer p {
 	color: #B7B7B7;
 	margin: 0;
 	font-size: 10px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: 500;
 	letter-spacing: 1.6px;
 }
@@ -713,7 +712,7 @@ footer p a span {
 	font-size: 30px;	
 }
 .modal-title {	
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-size: 23px;
 }
 
@@ -729,7 +728,7 @@ footer p a span {
 .modal-works {
 font-size: 11px;
 	letter-spacing: 1px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: 500;
 	color: #fff;
 	margin: 25px 20px;
@@ -784,8 +783,8 @@ font-size: 11px;
 color: #fff;
     background-color: #23AD21;
     /* border-color: #726FB9; */
-    font-family: "Open Sans",sans-serif;
-    text-transform: uppercase;
+    font-family: "Playfair Display",sans-serif;
+    text-transform: capitalize;
     font-weight: 800;
     border-radius: 0;
     letter-spacing: 2px;
@@ -807,7 +806,7 @@ color: #fff;
 	display: block;
 	text-align: center;
 	font: 11px/100% Arial, Helvetica, sans-serif;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	text-decoration: none;
 	color: #FFFFFF;
 	background: #A9A9B1;
@@ -850,25 +849,25 @@ and (max-width : 480px) {
 }
 
 .testimonial blockquote {
-  margin: 10px 20px; /* Adjusted margin */
-  background: #efefef;
-  padding: 20px 40px; /* Adjusted padding */
-  position: relative;
-  border: none;
-  border-radius: 8px;
-  font-style: italic;
-  color: #151515;
-  min-width: 600px; /* Set minimum width to 200px */
+	margin: 10px 20px; /* Adjusted margin */
+	background: #efefef;
+	padding: 20px 40px; /* Adjusted padding */
+	position: relative;
+	border: none;
+	border-radius: 8px;
+	font-style: italic;
+	color: #151515;
+	min-width: 600px; /* Set minimum width to 200px */
 }
 
 .testimonial blockquote:before,
 .testimonial blockquote:after {
-  content: "\201C";
-  position: absolute;
-  font-size: 80px;
-  line-height: 1;
-  color: #151515;
-  font-style: normal;
+	content: "\201C";
+	position: absolute;
+	font-size: 80px;
+	line-height: 1;
+	color: #151515;
+	font-style: normal;
 }
 
 .testimonial blockquote:before {
@@ -877,14 +876,14 @@ and (max-width : 480px) {
 }
 
 .testimonial blockquote:after {
-  content: "\201D";
-  position: absolute;
-  right: -30px; /* Adjusted position */
-  bottom: -0.5em; /* Adjusted position */
-  color: #151515;
-  font-size: 80px;
-  line-height: 1;
-  font-style: normal;
+	content: "\201D";
+	position: absolute;
+	right: -30px; /* Adjusted position */
+	bottom: -0.5em; /* Adjusted position */
+	color: #151515;
+	font-size: 80px;
+	line-height: 1;
+	font-style: normal;
 }
 
 .testimonial div {
@@ -893,8 +892,8 @@ and (max-width : 480px) {
 }
 
 .testimonial p {
-  margin: 8px 0 0 20px;
-  text-align: left;
-  color: #797979;
+	margin: 8px 0 0 20px;
+	text-align: left;
+	color: #797979;
 }
 
