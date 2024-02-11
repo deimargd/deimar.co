@@ -844,12 +844,16 @@ and (max-width : 480px) {
 
 /* TESTIMONIALS */
 
+.owl-portfolio-item {
+	margin: 0 10px; /* Add margin between each testimonial item */}
+
 .testimonial {
-  margin: 20px; /* Add margin to create space between testimonial boxes */
-}
+	width: 100%; /* Set the width of each testimonial to 100% */
+	display: inline-block; /* Display testimonials inline */
+	vertical-align: top; /* Align testimonials to the top */}
 
 .testimonial blockquote {
-	margin: 10px 20px; /* Adjusted margin */
+	margin: 10px; /* Adjusted margin */
 	background: #efefef;
 	padding: 20px 40px; /* Adjusted padding */
 	position: relative;
@@ -857,7 +861,7 @@ and (max-width : 480px) {
 	border-radius: 8px;
 	font-style: italic;
 	color: #151515;
-	min-width: 600px; /* Set minimum width to 200px */
+	min-width: 200px; /* Set minimum width to 200px */
 }
 
 .testimonial blockquote:before,
@@ -871,8 +875,8 @@ and (max-width : 480px) {
 }
 
 .testimonial blockquote:before {
-  top: -0.5em; /* Adjusted position */
-  left: -30px; /* Adjusted position */
+	top: -0.5em; /* Adjusted position */
+	left: -30px; /* Adjusted position */
 }
 
 .testimonial blockquote:after {
@@ -884,11 +888,6 @@ and (max-width : 480px) {
 	font-size: 80px;
 	line-height: 1;
 	font-style: normal;
-}
-
-.testimonial div {
-  display: inline-block; /* Adjusted display */
-  vertical-align: top; /* Adjusted vertical alignment */
 }
 
 .testimonial p {
