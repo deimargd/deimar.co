@@ -610,6 +610,8 @@ figure.effect-bubba:hover p {
 .team-item {
 	text-align: center;
 	background-color: #fff;
+	display: flex;
+	align-items: center;
 }
 
 .team-item h3 {
@@ -633,6 +635,25 @@ figure.effect-bubba:hover p {
     font-weight: 400;
     color: #292929;
     padding: 5px 10px 20px 10px;
+}
+
+.team-item img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%; /* Make the image appear as a circle */
+	object-fit: cover; /* Ensure the image covers the entire space */
+	flex: 0 0 auto; /* Make sure the image doesn't grow or shrink */
+	margin-right: 20px; /* Add some space between the image and bio */
+}
+
+.team-text {
+	flex: 1; /* Make the bio take up remaining space */
+}
+
+.team-text h3,
+.team-text .team-position,
+.team-text p {
+	margin: 0; /* Remove default margins */
 }
 
 /*--------------------
@@ -847,6 +868,8 @@ and (max-width : 480px) {
 .owl-portfolio-item {
 	margin: 0 10px; /* Add margin between each testimonial item */}
 
+.owl-dot active {color:red}
+
 .testimonial {
 	width: 100%; /* Set the width of each testimonial to 100% */
 	display: inline-block; /* Display testimonials inline */
@@ -896,3 +919,4 @@ and (max-width : 480px) {
 	color: #797979;
 }
 
+/* Team Image */
