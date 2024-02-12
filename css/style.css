@@ -875,48 +875,53 @@ and (max-width : 480px) {
 	display: inline-block; /* Display testimonials inline */
 	vertical-align: top; /* Align testimonials to the top */}
 
-.testimonial blockquote {
-	margin: 10px; /* Adjusted margin */
-	background: #efefef;
-	padding: 20px 40px; /* Adjusted padding */
-	position: relative;
-	border: none;
-	border-radius: 8px;
-	font-style: italic;
-	color: #151515;
-	min-width: 600px; /* Set minimum width to 200px */
-}
+	.testimonial blockquote {
+		margin: 10px 10px 0;
+		background: #d3d3d3;
+		padding: 20px 60px;
+		position: relative;
+		border: none;
+		border-radius: 8px;
+		font-style: italic;
+		max-width: 400px;
+		min-height: 50px;
+	}
 
-.testimonial blockquote:before,
-.testimonial blockquote:after {
-	content: "\201C";
-	position: absolute;
-	font-size: 80px;
-	line-height: 1;
-	color: #151515;
-	font-style: normal;
-}
+	.testimonial blockquote:before,
+	.testimonial blockquote:after {
+		content: "\201C";
+		position: absolute;
+		font-size: 80px;
+		line-height: 1;
+		color: #151515;
+		font-style: normal;
+	}
+	
+	.testimonial blockquote:before {
+		top: 0;
+		left: 10px;
+	}
 
-.testimonial blockquote:before {
-	top: -0.5em; /* Adjusted position */
-	left: -10px; /* Adjusted position */
-}
+	.testimonial blockquote:after {
+		content: "\201D";
+		right: 10px;
+		bottom: -0.5em;
+	}
+	
+	.testimonial div {
+		width: 0;
+		height: 0;
+		border-left: 0 solid transparent;
+		border-right: 20px solid transparent;
+		border-top: 20px solid #d3d3d3;
+		margin: 0 0 0 60px;
+	}
+	
+	.testimonial p {
+		margin: 8px 0 0 20px;
+		text-align: left;
+		color: #151515;
+	}
 
-.testimonial blockquote:after {
-	content: "\201D";
-	position: absolute;
-	right: -10px; /* Adjusted position */
-	bottom: -0.5em; /* Adjusted position */
-	color: #151515;
-	font-size: 80px;
-	line-height: 1;
-	font-style: normal;
-}
-
-.testimonial p {
-	margin: 8px 0 0 20px;
-	text-align: left;
-	color: #797979;
-}
 
 /* Team Image */
