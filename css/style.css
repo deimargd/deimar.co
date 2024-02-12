@@ -29,6 +29,9 @@ Import Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+/* Font Awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
 
 /*--------------------
 1. General
@@ -239,7 +242,6 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
 	display: inline-block;
-	background-color: rgba(255, 255, 255, 0.65);
 	margin-bottom: 25px;
 	padding: 4px 20px;
 	font-family: "Playfair Display",sans-serif;
@@ -247,6 +249,22 @@ header .intro-text .intro-lead-in {
 	color: #3E3E3E;
 	font-weight: 300;
 	line-height: 40px;
+}
+
+.intro-lead-in {
+    font-family: "Playfair Display", serif;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.intro-heading {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 35px;
+}
+
+.intro-subheading {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
 }
 
 @media (min-width: 768px) {
@@ -265,7 +283,6 @@ header .intro-text .intro-heading {
 	margin-bottom: 25px;
 	letter-spacing: -3px;
 	word-spacing: 10px;
-	color: #FFFFFF;
 	text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
@@ -925,3 +942,25 @@ and (max-width : 480px) {
 
 
 /* Team Image */
+
+/* Adjusted Social Icons Styling */
+.social {
+	position: absolute;
+	bottom: 60px;
+	left: 0;
+	padding: 32px;
+	opacity: 0;
+	animation: fadeIn 500ms ease-in-out forwards;
+	animation-delay: 2000ms;
+}
+
+.social a {
+	text-decoration: none;
+	color: #151515;
+	font-size: 24px; /* Adjusted font size */
+	margin: 0 16px;
+}
+
+.social a:first-child {
+	margin-left: 0;
+}
