@@ -884,7 +884,7 @@ and (max-width : 480px) {
 	border-radius: 8px;
 	font-style: italic;
 	color: #151515;
-	min-width: 200px; /* Set minimum width to 200px */
+	min-width: 600px; /* Set minimum width to 200px */
 }
 
 .testimonial blockquote:before,
