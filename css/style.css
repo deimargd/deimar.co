@@ -866,7 +866,7 @@ and (max-width : 480px) {
 /* TESTIMONIALS */
 
 .owl-portfolio-item {
-	margin: 0 10px; /* Add margin between each testimonial item */}
+	margin: 0 15px; /* Add margin between each testimonial item */}
 
 .owl-dot active {color:red}
 
@@ -899,13 +899,13 @@ and (max-width : 480px) {
 
 .testimonial blockquote:before {
 	top: -0.5em; /* Adjusted position */
-	left: -30px; /* Adjusted position */
+	left: -10px; /* Adjusted position */
 }
 
 .testimonial blockquote:after {
 	content: "\201D";
 	position: absolute;
-	right: -30px; /* Adjusted position */
+	right: -10px; /* Adjusted position */
 	bottom: -0.5em; /* Adjusted position */
 	color: #151515;
 	font-size: 80px;
